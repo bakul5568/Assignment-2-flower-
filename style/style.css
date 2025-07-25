@@ -148,7 +148,13 @@ nav a{
     margin-left: 330px;
     position: absolute;
     filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
+    animation: spin 2s linear infinite;
+    -webkit-animation: spin 2s linear infinite;
 }
+@keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
 .flower-title{
     font-weight: 700;
     font-size: 50px;
@@ -209,7 +215,7 @@ nav a{
   position: absolute;
   inset: 0;
   border-radius: 14px;
-  /* background-color: rgba(0, 0, 0, 0.498); */
+  background-color: rgba(0, 0, 0, 0.498);
 }
 .box-title {
     color: white;
@@ -218,11 +224,10 @@ nav a{
     z-index: 1;
     margin: 0;
 }
-.box-title-3{
-    color: white;
-}
-.right-image .box-title-3{
-    font-size: 40px;
+
+
+.right-image .box-title{
+    font-size: 3rem;
     font-weight: 700;
     color: white;
 
