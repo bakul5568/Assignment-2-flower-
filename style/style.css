@@ -149,7 +149,7 @@ nav a{
     position: absolute;
     filter: drop-shadow(4px 4px 3px rgba(0, 0, 0, 0.25));
     animation: spin 2s linear infinite;
-    -webkit-animation: spin 2s linear infinite;
+    
 }
 @keyframes spin {
       0% { transform: rotate(0deg); }
