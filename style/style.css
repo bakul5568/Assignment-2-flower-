@@ -211,24 +211,28 @@ nav a{
   border-radius: 14px;
   /* background-color: rgba(0, 0, 0, 0.498); */
 }
-.box-title{
-    color: #FFFFFF;
+.box-title {
+    color: white;
     font-size: 20px;
     font-weight: 700;
     z-index: 1;
     margin: 0;
 }
+.box-title-3{
+    color: white;
+}
 .right-image .box-title-3{
     font-size: 40px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: white;
+
 }
 .image-box a {
   padding:  16px;
   border-radius: 4px;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  color: #FFFFFF;
+  color: white;
   z-index: 1;
 }
 .right-image .image-box a{
@@ -241,7 +245,7 @@ nav a{
     background-image: url('../images/news-letter-bg.png');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 450px;
     color: #FFFFFF;
 }
 #join-title{
