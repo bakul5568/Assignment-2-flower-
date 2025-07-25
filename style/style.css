@@ -300,6 +300,40 @@ nav a{
     
 }
 /* Copyright*/
-  .footer-text{
+.footer-text{
     text-align: center;
-  }
+}
+/* responcive style */
+@media screen and (max-width:576px){
+    .nav-item li:nth-child(1),
+    .nav-item li:nth-child(2),
+    .nav-item li:nth-child(3),
+    .flower-badge{
+    display: none;
+}
+.header-section{
+    padding-top: 10px;
+}
+.hero-section{
+    flex-direction: column-reverse;
+}
+.hero-section img {
+    width: 100%;
+}
+.hero-title{
+    font-size: 2rem;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* responcive plant section */
+.plant-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.plant-image{
+    width: 100%;
+}
+.btn-primary{
+    padding: 15px 20px;
+}
