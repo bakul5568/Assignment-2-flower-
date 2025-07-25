@@ -303,7 +303,7 @@ nav a{
 .footer-text{
     text-align: center;
 }
-/* responcive style */
+/* small device responcive style */
 @media screen and (max-width:576px){
     .nav-item li:nth-child(1),
     .nav-item li:nth-child(2),
@@ -327,7 +327,7 @@ section{
     margin-top: 50px;
     margin-bottom: 50px;
 }
-/* responcive plant section */
+/* plant section */
 .plant-container{
     grid-template-columns: repeat(2, 1fr);
 }
@@ -372,4 +372,36 @@ section{
 .right-image .image-box a {
     font-size: 1rem;
     font-weight: 600;
+}
+/* join */
+.join-section {
+    padding: 0 auto;
+}
+.join-textfild{
+    width: 150px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px 100px 15px 15px;
+}
+#join-title{
+   font-size: 2rem;
+   margin-bottom: 20px;
+}
+.join-bg{
+    height: 250px;
+}
+/* footer section */
+.footer-section{
+    flex-direction: column;
+    gap: 0px;
+}
+.footer-contant{
+    margin-bottom: 30px;
+}
+.footer-nav-item{
+    padding-left: 0;
+}
+.footer-icon{
+    margin-top: 30px;
+}
 }
