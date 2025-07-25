@@ -334,6 +334,42 @@ section{
 .plant-image{
     width: 100%;
 }
-.btn-primary{
+.button{
     padding: 15px 20px;
+}
+/* flower and flant */
+.flower-container{
+    flex-direction: column;
+    padding-top: 0px;
+}
+.flower-first-image{
+    width: 100%;
+}
+/* deals */
+.box-container {
+    flex-direction: column;
+}
+.hide-on-mobile{
+    display: none;
+}
+.left-image,
+.right-image {
+    width: 100%;
+}
+
+.right-image {
+    flex-direction: column;
+    height: auto;
+}
+
+.right-image .image-box {
+    height: 190px;
+    width: 100%;
+}
+.box-title, .right-image .box-title-3{
+    font-size: 1.25rem;
+}
+.right-image .image-box a {
+    font-size: 1rem;
+    font-weight: 600;
 }
